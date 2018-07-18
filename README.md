@@ -58,6 +58,5 @@ And then fireup the po0:
 ifup po0
 ```
 
-## NOTE! The members interfaces eth0 and eth1 MUST be in SHUTDOWN state
-## prior to add in team interface! Otherwise will receive an error!
+## NOTE! The members interfaces eth0 and eth1 MUST be in SHUTDOWN state prior to add in team interface! Otherwise will receive an error!
 
