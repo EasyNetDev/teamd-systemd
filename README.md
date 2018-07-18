@@ -21,7 +21,7 @@ this:
         "name": "ethtool"
     }
 }
-``
+```
 
 On start will create a teaming interface named po0. After that this 
 interface can be used in networking scripts or from cli to 
