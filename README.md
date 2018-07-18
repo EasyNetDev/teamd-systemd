@@ -29,16 +29,16 @@ add/remove ports like this:
 
 CLI:
 ```
-# systemctl enable teamd@po0
-# systemctl start teamd@po0
-# teamdctl po0 port add eth0 eth1
+systemctl enable teamd@po0
+systemctl start teamd@po0
+teamdctl po0 port add eth0 eth1
 ```
 
 Debian/Ubuntu network scripts:
 
 ```
-# systemctl enable teamd@po0
-# systemctl start teamd@po0
+systemctl enable teamd@po0
+systemctl start teamd@po0
 ```
 
 Edit /etc/networking/interfaces and add the configuration for interface po0:
@@ -55,9 +55,9 @@ iface po0 inet manual
 And then fireup the po0:
 
 ```
-# ifup po0
+ifup po0
 ```
 
-#### NOTE! The members interfaces eth0 and eth1 MUST be in SHUTDOWN state
-#### prior to add in team interface! Otherwise will receive an error!
+## NOTE! The members interfaces eth0 and eth1 MUST be in SHUTDOWN state
+## prior to add in team interface! Otherwise will receive an error!
 
