@@ -1,0 +1,17 @@
+Source: teamd-systemd
+Section: admin
+Priority: optional
+Maintainer: Adrian Ban <adrian@abtelecom.ro>
+Build-Depends: debhelper (>= 7.0.50~), dh-systemd, po-debconf
+Standards-Version: 3.9.6
+Vcs-Browser: https://github.com/AdrianBan/teamd-systemd/
+Vcs-Git: git://github.com/AdrianBan/teamd-systemd
+
+Package: teamd-systemd
+Architecture: all
+Depends: systemd, libteam-utils, libteam5, libteamdctl0, ${misc:Depends}
+Description: boot-time loader for teaming interfaces (bonding replacement)
+ This package provides a loader for teaming interface configuration using
+ systemd architecture. It loads and unloads the teaming interfaces using
+ teamd tool.
+

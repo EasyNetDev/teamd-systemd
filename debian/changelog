@@ -1,0 +1,21 @@
+teamd-systemd (0.3) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add nice -20 to the process.
+
+ -- Adrian Ban <adrian@abtelecom.ro>  Fri, 18 Jul 2018 09:46:34 +0200
+
+teamd-systemd (0.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix ConditionPathExists.
+  * Correct documentation.
+
+ -- Adrian Ban <adrian@abtelecom.ro>  Fri, 16 Jul 2018 16:11:43 +0200
+
+teamd-systemd (0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * First release
+
+ -- Adrian Ban <adrian@abtelecom.ro>  Fri, 13 Jul 2018 23:07:22 +0200
