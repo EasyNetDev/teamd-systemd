@@ -3,8 +3,12 @@
 ------------------------------------
 
 teamd-systemd is a systemd service which install a service in format
-teamd@po0 and starts a daemon named teamd using /etc/teamd.d/po0.conf
-configuration file. This file can contain a simple configuration like
+**teamd@po0** and starts a daemon named teamd using **/etc/teamd.d/po0.conf**
+configuration file.
+For more information about teamd check [LibTeam.org](http://libteam.org/) or 
+@jpirko/libteam on GitHub.
+
+This file can contains a simple configuration like
 this:
 
 ```
