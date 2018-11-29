@@ -1,5 +1,5 @@
 [Unit]
-Description=Daemon for device %I
+Description=Team Daemon for device %I
 Wants=network-pre.target
 Before=network-pre.target
 ConditionPathExists=/etc/teamd.d/%i.conf
