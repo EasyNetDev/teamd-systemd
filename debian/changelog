@@ -1,3 +1,12 @@
+teamd-systemd (0.4) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix starting the Team before networking. On some systems 
+    network-pre.target is not working and networking.service 
+    fails.
+
+ -- Adrian Ban <adrian@abtelecom.ro>  Fri, 30 Dec 2018 00:08:34 +0200
+
 teamd-systemd (0.3) unstable; urgency=medium
 
   * Non-maintainer upload.
